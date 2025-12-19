@@ -49,14 +49,18 @@ const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 opacity-0 animate-fade-up stagger-4">
-            <Button variant="hero" size="xl" className="group">
-              <Play className="w-5 h-5 group-hover:scale-110 transition-transform" />
-              Jetzt reinhören
-            </Button>
-            <Button variant="heroOutline" size="xl">
-              <Headphones className="w-5 h-5" />
-              Abonnieren
-            </Button>
+            <a href="https://zwischen-entscheidungen.podigee.io/" target="_blank" rel="noopener noreferrer">
+              <Button variant="hero" size="xl" className="group">
+                <Play className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                Jetzt reinhören
+              </Button>
+            </a>
+            <a href="https://zwischen-entscheidungen.podigee.io/" target="_blank" rel="noopener noreferrer">
+              <Button variant="heroOutline" size="xl">
+                <Headphones className="w-5 h-5" />
+                Abonnieren
+              </Button>
+            </a>
           </div>
 
           {/* Trust Indicator */}

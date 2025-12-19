@@ -23,14 +23,18 @@ const CTASection = () => {
 
           {/* Primary CTA */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-            <Button variant="hero" size="xl" className="group">
-              <Play className="w-5 h-5 group-hover:scale-110 transition-transform" />
-              Podcast hören
-            </Button>
-            <Button variant="heroOutline" size="xl">
-              <Share2 className="w-5 h-5" />
-              Episode teilen
-            </Button>
+            <a href="https://zwischen-entscheidungen.podigee.io/" target="_blank" rel="noopener noreferrer">
+              <Button variant="hero" size="xl" className="group">
+                <Play className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                Podcast hören
+              </Button>
+            </a>
+            <a href="https://zwischen-entscheidungen.podigee.io/" target="_blank" rel="noopener noreferrer">
+              <Button variant="heroOutline" size="xl">
+                <Share2 className="w-5 h-5" />
+                Episode teilen
+              </Button>
+            </a>
           </div>
 
           {/* Secondary CTA */}
